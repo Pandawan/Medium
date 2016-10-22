@@ -15,4 +15,8 @@
         }
     }
 
+    if (process.platform !== 'darwin') {
+      document.getElementById('menu').style.marginLeft = "0.5em";
+    }
+
 })();
